@@ -58,7 +58,7 @@
             bindings = <&mo>, <&to_layer_0>;
 
             #binding-cells = <2>;
-            tapping-term-ms = <100>;
+            tapping-term-ms = <200>;
         };
     };
 
@@ -69,8 +69,8 @@
             bindings = <
 &kp JP_Q             &kp JP_W         &kp JP_E         &kp JP_R                  &kp JP_T                                                  &kp JP_Y        &kp JP_U  &kp JP_I     &kp JP_O     &kp JP_P
 &kp JP_A             &kp JP_S         &kp JP_D         &kp JP_F                  &kp JP_G        &kp LC(V)                  &kp TAB        &kp JP_H        &kp JP_J  &kp JP_K     &kp JP_L     &kp JP_MINUS
-&mt LEFT_SHIFT JP_Z  &kp JP_X         &kp JP_C         &kp JP_V                  &kp JP_B        &kp LC(C)                  &kp LS(TAB)    &kp JP_N        &kp JP_M  &mkp MB1  &mkp MB2  &lt_to_layer_0 3 JP_COMMA
-&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt_to_layer_0 1 INT5  &lt 2 SPACE  &lt_to_layer_0 3 INT4      &kp BACKSPACE  &lt 2 ENTER                             &mt RIGHT_SHIFT JP_DOT
+&mt LEFT_SHIFT JP_Z  &kp JP_X         &kp JP_C         &kp JP_V                  &kp JP_B        &kp LC(C)                  &kp LS(TAB)    &kp JP_N        &kp JP_M  &mkp MB1  &mkp MB2  &lt 3 JP_COMMA
+&kp LEFT_CONTROL  &kp LEFT_WIN  &kp LEFT_ALT  &lt 1 INT5  &lt 2 SPACE  &lt 3 INT4      &kp BACKSPACE  &lt 2 ENTER                             &mt RIGHT_SHIFT JP_DOT
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
